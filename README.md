@@ -2,6 +2,7 @@
   
 ### Tools Used  
 * VSCode  
+* Figma  
 * Gimp  
   
 ### Technology Used  
