@@ -1,0 +1,49 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 60px;
+}
+
+footer span {
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0.8;
+}
+
+footer nav a {
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    opacity: 0.8;
+}
+
+footer nav a:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 992px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    footer nav a {
+        margin-bottom: 12px;
+        margin-left: 0;
+    }
+}

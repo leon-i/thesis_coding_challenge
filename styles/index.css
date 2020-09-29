@@ -1,0 +1,26 @@
+@import './reset.css';
+@import './header.css';
+@import './main.css';
+@import './footer.css';
+@import './dropdown-menu.css';
+@import '../fonts/fonts.css';
+
+html {
+    height: calc(100% - 1px);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-image: url('../background-1.png'), linear-gradient(rgba(27, 27, 27, 0.5), rgba(27, 27, 27, 0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        background-size: auto;
+    }
+}

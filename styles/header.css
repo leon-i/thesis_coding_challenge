@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    min-height: 100px;
+    padding: 0 60px;
+}
+
+header nav a {
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0 28px;
+}
+
+header nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.logo {
+    height: 33px;
+}
+
+.menu-icon {
+    height: 19px;
+    width: 28px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0 40px;
+    }
+
+    header nav {
+        display: none;
+    }
+}
