@@ -7,7 +7,11 @@
 ### Technology Used  
  * HTML5  
  * CSS3 - Flexbox  
- * JavaScript
+ * JavaScript  
+   
+### Testing  
+* Open index.html in browser (preferrably Chrome)  
+* Use Chrome Devtools to test page at Desktop/Ipad/Iphone X
   
 ### Desktop View  
 ![image](https://user-images.githubusercontent.com/56734437/94608907-195a3d80-026c-11eb-9770-4845bf430506.png)  
